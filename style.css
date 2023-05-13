@@ -1,0 +1,128 @@
+*{
+    background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    
+    line-height: 150%;
+}
+.logoAlura {
+    margin-left: 15px;
+    padding-top: 5px;
+    width: 3%;
+    border-radius: 10px;
+    opacity: 60%;
+    
+}
+main {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 80px;
+    }
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    font-size: 32px;
+}
+::placeholder { color: #0A3871; text-transform: none;}
+    .text-area:focus{
+        outline: none;
+    }
+.saida ::placeholder {
+    color: rgb(243, 227, 225);
+    text-align: center;
+}
+
+.titulopag {
+   padding-left: 190px;
+   text-transform: uppercase;
+  
+}
+.mensagem {
+    background: rgb(41, 40, 40);
+    border: none;
+    border-radius: 24px;
+    color: #eeeff0;
+    margin-left: 98px;
+    margin-top: 70px;
+    padding-left: 20px;
+    position: fixed;
+    font-size: 32px;
+}
+.mensagem:focus {
+    outline: none;
+}
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+.bt-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    font-size: 32px;
+}
+.bt-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    font-size: 32px;
+}
+.bt-encriptar:hover {
+    opacity: 90%;
+    transition:200ms;
+    font-size: 40px;
+    transition: 400ms;
+}
+.bt-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 112px;
+    margin-top: 452px;
+    position: absolute;
+    width: 336px;
+    font-size: 32px;
+}
+.informacao {
+    color: #495057;
+    font-size: 15px;
+    font-style: italic;
+}
+
+/*
+*/
+
+.bt-desencriptar:hover {
+    transition: 200ms;
+    opacity: 90%;
+    font-size: 40px;
+    transition: 400ms;
+}
+.bt-copiar:hover {
+    color: red;
+    transition: 400ms;
+    opacity: 80%;
+}
+.logo {
+    display: flex;
+    float: right;
+    width: 200px;
+    margin-right: 20px;
+    margin-top: 5px;
+    border-radius: 10px;
+    opacity: 80%;
+}

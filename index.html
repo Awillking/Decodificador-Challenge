@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Codificador de Mensagens</title>
+</head>
+<body>
+    <header>
+        <img class="logoAlura" src="imagens/logoAlura.png" alt="Logo da Alura">
+        <img class="logo" src="imagens/result.png">
+        <h1 class="titulopag"> Codificador de Mensagens em JavaScript</h1>
+   </header>
+   <main>
+    
+<section>
+<textarea class="text-area" cols="41" rows="7" placeholder="Digite o texto que deseja codificar/decodificar..."></textarea>
+
+<div class="informacao">
+    <p>* Somente letras minúsculas e sem acentos</p>
+</div>
+
+<div class="botoes">
+    <button class="bt-encriptar" onclick="btcodificar()">Criptografar</button>
+    <button class="bt-desencriptar" onclick="btdesencriptar()">Descriptografar</button>
+</div>
+</section>
+
+<section class="saida">
+    <textarea class="mensagem" placeholder="Resultado " id="cmpmensagem" cols="20" rows="10"></textarea>
+    <button class="bt-copiar" onclick="copy()">Copiar</button>
+</section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
